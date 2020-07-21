@@ -1,6 +1,7 @@
-function takeANumber(line, name) {
-  line.push(name);
-  return (`Welcome, ${name}. You are number ${line.length} in line.`);
+function takeANumber(line, numberOfVisits) {
+  var numberOfVisits = 20;
+  line.push(numberOfVisits);
+  return (`Welcome, ${numberOfVisits}. You are number ${line.length} in line.`);
 }
 
 function nowServing(line, name) {
