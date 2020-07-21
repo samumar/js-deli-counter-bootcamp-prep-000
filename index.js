@@ -1,6 +1,6 @@
 function takeANumber(line, name) {
   var numberOfVisits = 20;
-  line.push(numberOfVisits);
+  line.push(numberOfVisits + 1);
   return (`Welcome, You are ticket number ${numberOfVisits}.`);
 }
 
