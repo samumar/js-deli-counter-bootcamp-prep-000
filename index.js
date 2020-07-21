@@ -1,4 +1,4 @@
-function takeANumber(line, numberOfVisits) {
+function takeANumber(line, name) {
   var numberOfVisits = 20;
   line.push(numberOfVisits);
   return (`Welcome, ${numberOfVisits}. You are number ${line.length} in line.`);
